@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "944693313004",
+    "firebase_url": "https://memorycar-11caf.firebaseio.com",
+    "project_id": "memorycar-11caf",
+    "storage_bucket": "memorycar-11caf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944693313004:android:35c00a2e5cadea1e0c14c9",
+        "android_client_info": {
+          "package_name": "com.sandu.memorycar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944693313004-n55c2urahq0qdbfn35d4d00kgk5vrv0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandu.memorycar",
+            "certificate_hash": "77fb4f56bd5f02308bbe7118e4a7e1e81c08bf6e"
+          }
+        },
+        {
+          "client_id": "944693313004-ij1d16l4fusq12j9s6envhhqhbjbleai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDMSoL0IVbFJdyFyBNcCtFh6zG7LeJbMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944693313004-ij1d16l4fusq12j9s6envhhqhbjbleai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
