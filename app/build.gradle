@@ -25,6 +25,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    sourceSets {
+        main {
+            aidl {
+                srcDirs 'src\\main\\aidl', 'src\\main\\java\\com.sandu.memorycar\\Database'
+            }
+        }
+    }
 }
 
 dependencies {

@@ -1,4 +1,4 @@
-package com.sandu.memorycar;
+package com.sandu.memorycar.Database;
 
 import androidx.room.Delete;
 import androidx.room.Insert;

@@ -5,6 +5,8 @@ import androidx.room.Room;
 
 import android.os.Bundle;
 
+import com.sandu.memorycar.Database.Database;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
