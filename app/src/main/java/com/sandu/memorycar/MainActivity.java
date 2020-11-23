@@ -6,8 +6,6 @@ import androidx.room.Room;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.sandu.memorycar.Database.Database;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,6 +16,5 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        Database db = Room.databaseBuilder(getApplicationContext(), Database.class, "CarDetails").build();
     }
 }
