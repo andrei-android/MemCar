@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MemoryCar</string>
+    <string name="img_logo_description">img_logo</string>
+    <string name="app_name_mainscreen">MemCar</string>
+    <string name="mainScreen_btn">Continue</string>
+    <string name="version">v1.0</string>
 </resources>
