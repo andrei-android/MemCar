@@ -9,8 +9,8 @@ import androidx.lifecycle.LiveData;
 import java.util.List;
 
 public class VehicleViewModel extends AndroidViewModel {
-    private VehicleRepository repository;
-    private LiveData<List<Vehicle>>allVehicles;
+    private final VehicleRepository repository;
+    private final LiveData<List<Vehicle>>allVehicles;
 
     public VehicleViewModel(@NonNull Application application) {
         super(application);

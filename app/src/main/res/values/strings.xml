@@ -9,4 +9,5 @@
     <string name="taxdue">TaxDue</string>
     <string name="mileage">Mileage</string>
     <string name="insurancedue">InsDue</string>
+    <string name="fab_btn">fab_btn</string>
 </resources>

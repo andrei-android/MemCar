@@ -43,6 +43,7 @@
         android:padding="5dp"
         android:text="@string/mainScreen_btn"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
