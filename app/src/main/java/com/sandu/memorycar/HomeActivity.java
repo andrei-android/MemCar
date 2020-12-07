@@ -3,7 +3,9 @@ package com.sandu.memorycar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -30,6 +32,13 @@ public class HomeActivity extends AppCompatActivity {
         profile_name = findViewById(R.id.profile_name);
         recyclerView = findViewById(R.id.recyclerView);
         add_btn = findViewById(R.id.add_btn);
+
+        add_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, AddNewCarActivity.class));
+            }
+        });
 
 
     }
